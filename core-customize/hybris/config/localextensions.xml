@@ -31,6 +31,7 @@
 	<extension name='smarteditwebservices' />
 	<extension name='cmssmarteditwebservices' />
 	<extension name='permissionswebservices' />
+	<extension name='yb2bacceleratorstorefront' />
 	<extension name='ycommercewebservices' />
 	<extension name='ycommercewebservicestest' />
 	<extension name='smarteditaddon' />
@@ -99,6 +100,12 @@
 <!-- Data Hub Extensions -->
   	<extension name='datahubadapter' />
 	<extension name='datahubbackoffice' />
+	<extension name='datahubtestsetup' />
+
+<!-- Integration Extensions -->
+	<extension name='sapcoreaddon' />
+	<extension name='sapcoreconfigurationbackoffice' />
+	<extension name='sapmodelbackoffice' />
 
 <!-- Sample Custom Extensions -->
     <extension name='kiwi' />
@@ -109,7 +116,6 @@
     <extension name='cloudcommons' />
     <extension name='cloudhotfolder' />
 
-
 <!-- Configuring Required Extensions and AddOns for SAP Commerce integration with SAP Cloud Platform Integration - https://help.sap.com/viewer/50c996852b32456c96d3161a95544cdb/1905/en-US/7f87b6adbab74635b744a1bc38ce8d3c.html-->
     <!--<extension name='sapcpiadapter'/>
     <extension name='sapcpiorderexchange'/>
@@ -119,7 +125,6 @@
     <extension name='sapmodelbackoffice'/>
     <extension name='saporderexchangebackoffice'/>
     <extension name='sapcoreaddon'/>-->
-
 
   </extensions>
 </hybrisconfig>

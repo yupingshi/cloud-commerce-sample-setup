@@ -1,33 +1,36 @@
 {
-    "dataHubVersion" : "1905.12",
-    "extensions" : [
-        "ccv2-example",
-        
-        "sapcoreconfiguration",
+  "dataHubVersion" : "2005.8",
+  "extensionPacks" : [
+    {
+      "name" : "hybris-datahub-integration-suite",
+      "version" : "2005.2"
+    }
+  ],
+  "extensions" : [
+      "sapcoreconfiguration",
 
-        "sapcustomer-canonical",
-        "sapcustomer-raw",
-        "sapcustomer-target",
+      "sapcustomer-canonical",
+      "sapcustomer-raw",
+      "sapcustomer-target",
 
-        "party-canonical",
+      "party-canonical",
 
-        "saperpproduct-canonical",
-        "saperpproduct-raw",
-        "saperpproduct-target",
+      "saperpproduct-canonical",
+      "saperpproduct-raw",
+      "saperpproduct-target",
 
-        "product-canonical",
+      "product-canonical",
 
-        "sappricing-canonical",
-        "sappricing-canonical-bonusbuy",
-        "sappricing-raw",
-        "sappricing-target",
+      "sappricing-canonical",
+      "sappricing-canonical-bonusbuy",
+      "sappricing-raw",
+      "sappricing-target",
 
-        "saporder-canonical",
-        "saporder-raw",
-        "saporder-target",
+      "saporder-canonical",
+      "saporder-raw",
+      "saporder-target",
 
-        "sapidocintegration",
-        "sapidocoutboundadapter"
-
-    ]
+      "sapidocintegration",
+      "sapidocoutboundadapter"
+  ]
 }

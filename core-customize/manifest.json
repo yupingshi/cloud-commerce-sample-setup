@@ -1,10 +1,16 @@
 {
-    "commerceSuiteVersion": "1905",
-    "enableImageProcessingService": true,
-    "extensions": [
-        "cloudmediaconversion",  
-        "mediaconversionbackoffice"
-    ],
+   "commerceSuiteVersion": "2005",
+   "extensionPacks" : [
+     {
+       "name" : "hybris-commerce-integrations",
+       "version" : "2005.2"
+     }
+   ],
+   "enableImageProcessingService": true,
+   "extensions": [
+       "cloudmediaconversion",  
+       "mediaconversionbackoffice"
+   ],
     "useConfig": {
         "properties": [
             {
@@ -161,66 +167,82 @@
             "template":"yacceleratorstorefront"
         }
     ],
-    "properties":[
-        {
-            "key":"lang.packs",
-            "value":"de,en"
-        },
-        {
-            "key":"endpoint.hac.platform.init.disabled",
-            "value":"true"
-         },
-         { 
-            "key":"endpoint.hac.platform.update.disabled",
-            "value":"true"
-         },
-         { 
-            "key":"test.property.1",
-            "value":"test-property-1-value-prod",
-            "persona":"production"
-         },
-         { 
-            "key":"test.property.1",
-            "value":"test-property-1-value-dev",
-            "persona":"development"
-         },
-         { 
-            "key":"test.property.1",
-            "value":"test-property-1-value"
-         },
-         { 
-            "key":"test.property.2",
-            "value":"test-property-2-value"
-         },
-         { 
-            "key":"googleApiKey",
-            "value":""
-         },
-         { 
-            "key":"multicountrysampledataaddon.import.active",
-            "value":"false"
-         },
-         { 
-            "key":"apiregistryservices.events.exporting",
-            "value":"false"
-         },
-         { 
-            "key":"xyformsstorefrontcommons.orbeon.keystoreFile",
-            "value":"/opt/hybris/bin/platform/tomcat/lib/keystore"
-        }
-    ],
+   "properties": [
+      {
+         "key": "lang.packs",
+         "value": "de,en"
+      },
+      {
+         "key": "endpoint.hac.platform.init.disabled",
+         "value": "true"
+      },
+      {
+         "key": "endpoint.hac.platform.update.disabled",
+         "value": "true"
+      },
+      {
+         "key": "test.property.1",
+         "value": "test-property-1-value-prod",
+         "persona": "production"
+      },
+      {
+         "key": "test.property.1",
+         "value": "test-property-1-value-dev",
+         "persona": "development"
+      },
+      {
+         "key": "test.property.1",
+         "value": "test-property-1-value"
+      },
+      {
+         "key": "test.property.2",
+         "value": "test-property-2-value"
+      },
+      {
+         "key": "googleApiKey",
+         "value": ""
+      },
+      {
+         "key": "multicountrysampledataaddon.import.active",
+         "value": "false"
+      },
+      {
+         "key": "apiregistryservices.events.exporting",
+         "value": "false"
+      },
+      {
+         "key": "xyformsstorefrontcommons.orbeon.keystoreFile",
+         "value": "/opt/hybris/bin/platform/tomcat/lib/keystore"
+      },
+      {
+         "key": "datahubadapter.datahuboutbound.password",
+         "value": "nimda"
+      }
+   ],
     "aspects":[
         {
             "name":"backoffice",
-            "properties":[
-                {
-                    "key":"xyformsservices.webroot.override",
-                    "value":"true"
-                 },
-                 { 
-                    "key":"xyformsservices.webroot.path",
-                    "value":"/backoffice"
-                }
+            "properties": [
+               {
+                  "key": "xyformsservices.webroot.override",
+                  "value": "true"
+               },
+               {
+                  "key": "xyformsservices.webroot.path",
+                  "value": "/backoffice"
+               },
+               {
+                  "key": "datahub.backoffice.rest.client.password.admin",
+                  "value": "nimda"
+               },
+               {
+                  "key": "datahub.backoffice.rest.client.password.developer",
+                  "value": "developer"
+               },
+               {
+                  "key": "datahubadapter.datahuboutbound.url",
+                  "value": "http://datahub:8080/datahub-webapp/v1"
+               }
             ],
             "webapps":[
                 {

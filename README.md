@@ -96,6 +96,8 @@ Use the Cloud Portal to create a build and then deploy the build to an environme
 
 After the build is deployed, you can find the Data Hub endpoint in the Environments page of the Cloud Portal.
 
+Follow the instruction on the help documentation for [Synchronizing Data between the SAP Back End](https://help.sap.com/viewer/cba59a6628404c30b2f9a5fd950a3a47/2005/en-US/8c6ab7d886691014887b8d894913b5ba.html)
+
 # Limitations
 
 The repository must be a public-facing repository.  You cannot use a private repository to host SAP Commerce Cloud configurations. 
