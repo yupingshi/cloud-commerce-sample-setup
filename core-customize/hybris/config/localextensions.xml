@@ -96,6 +96,7 @@
 	<extension name='xyformsstorefrontcommons' />
 	<extension name='xyformsweb' />
 	<extension name='orbeonweb' />
+	<extension name='personalizationsearchsamplesaddon' />
 
 <!-- Data Hub Extensions -->
   	<extension name='datahubadapter' />
