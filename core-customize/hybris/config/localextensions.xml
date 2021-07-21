@@ -178,6 +178,9 @@
     <extension name='webservicescommons' />
     <extension name='ywebservices' />
 
+    <extension name="previewwebservices" />
+    <extension name="permissionswebservices" />
+
     <extension name="b2bocc" />
 
 <!-- Sample Extensions -->
