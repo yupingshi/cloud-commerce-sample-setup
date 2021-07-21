@@ -178,6 +178,8 @@
     <extension name='webservicescommons' />
     <extension name='ywebservices' />
 
+    <extension name="b2bocc" />
+
 <!-- Sample Extensions -->
     <extension name='spartacussampledata' />
 <!--<extension name='kiwi' />
