@@ -6,6 +6,9 @@
         "mediaconversionbackoffice"
     ],
     "useConfig": {
+	"solr": {
+		"location": "mysolr"
+	},
         "properties": [
             {
                 "location": "hybris/config/environments/local-dev.properties",
