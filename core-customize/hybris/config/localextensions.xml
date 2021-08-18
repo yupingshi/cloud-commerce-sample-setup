@@ -64,7 +64,7 @@
     <extension name='cisclienttest' />
     <extension name='cispayment' />
     <extension name='cistax' />
-    <extension name='outboundservices' />
+    <!-- <extension name='outboundservices' /> -->
     <extension name='odata2webservices' />
     <extension name='odata2webservicesfeaturetests' />
     <extension name='kymaintegrationbackoffice' />
@@ -86,7 +86,7 @@
     <extension name='sapmodelbackoffice'/>
     <extension name='saporderexchangebackoffice'/>
     <extension name='sapcoreaddon'/>-->
-    <extension name='cmscockpit'/>
+    <extension name='mcc'/>
     <extension name='ECP2083TestExtension'/>
 
   </extensions>
