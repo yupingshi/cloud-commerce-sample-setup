@@ -247,7 +247,7 @@
 	  <extension name= 'cmssmarteditwebservices' />
 	  <extension name= 'smartedit' />
 	  <extension name= 'smarteditaddon' />
-	  <extension name= 'smartedittools' />
+	  <!-- <extension name= 'smartedittools' /> -->
 	  <extension name= 'smarteditwebservices' />
 	  <!-- <extension name= 'stocknotificationaddon' />
 	  <extension name= 'stocknotificationfacades' />
@@ -292,8 +292,8 @@
 
 
 <!-- Sample Custom Extensions -->
-    <extension name='kiwi' />
-    <extension name='tiger'/>
+    <!-- <extension name='kiwi' />
+    <extension name='tiger'/> -->
 
 <!-- For more information where to find those extensions: -->
 <!-- https://launchpad.support.sap.com/#/notes/2817992 -->
