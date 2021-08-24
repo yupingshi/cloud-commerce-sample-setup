@@ -1,5 +1,6 @@
 {
    "commerceSuiteVersion":"2005.13",
+   "solrVersion":"8.6.3",
    "extensions":[
       "commerceservicesbackoffice",
       "solrfacetsearchbackoffice",
@@ -34,9 +35,6 @@
       "personalizationsearchsmartedit"
    ],
    "useConfig":{
-      "solr":{
-         "solrVersion":"8.6.3"
-      },
       "properties":[
          {
             "key":"lang.packs",
