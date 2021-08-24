@@ -1,6 +1,5 @@
 {
    "commerceSuiteVersion":"2005.13",
-   "solrVersion":"8.6.3",
    "extensions":[
       "commerceservicesbackoffice",
       "solrfacetsearchbackoffice",
@@ -34,38 +33,38 @@
       "personalizationsearchbackoffice",
       "personalizationsearchsmartedit"
    ],
-      "properties":[
-         {
-            "key":"lang.packs",
-            "value":"de,en,es,es_CO,fr,hu,it,ja,ko,pl,pt,ru,zh,zh_TW,hi,id,cs,cy"
-         },
-         {
-            "key":"test.property.1",
-            "value":"test-property-1-value-prod",
-            "persona":"production"
-         },
-         {
-            "key":"test.property.1",
-            "value":"test-property-1-value-dev",
-            "persona":"development"
-         },
-         {
-            "key":"test.property.1",
-            "value":"test-property-1-value"
-         },
-         {
-            "key":"test.property.2",
-            "value":"test-property-2-value"
-         },
-         {
-            "key":"googleApiKey",
-            "value":""
-         },
-         {
-            "key":"multicountrysampledataaddon.import.active",
-            "value":"false"
-         }
-      ],
+   "properties":[
+      {
+         "key":"lang.packs",
+         "value":"de,en,es,es_CO,fr,hu,it,ja,ko,pl,pt,ru,zh,zh_TW,hi,id,cs,cy"
+      },
+      {
+         "key":"test.property.1",
+         "value":"test-property-1-value-prod",
+         "persona":"production"
+      },
+      {
+         "key":"test.property.1",
+         "value":"test-property-1-value-dev",
+         "persona":"development"
+      },
+      {
+         "key":"test.property.1",
+         "value":"test-property-1-value"
+      },
+      {
+         "key":"test.property.2",
+         "value":"test-property-2-value"
+      },
+      {
+         "key":"googleApiKey",
+         "value":""
+      },
+      {
+         "key":"multicountrysampledataaddon.import.active",
+         "value":"false"
+      }
+   ],
    "storefrontAddons":[
       {
          "addon":"smarteditaddon",
