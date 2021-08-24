@@ -160,11 +160,11 @@
 	  <!-- <extension name= 'outboundservices' />
 	  <extension name= 'outboundsync' />
 	  <extension name= 'outboundsyncbackoffice' /> -->
-	  <extension name= 'webhookbackoffice' />
+	  <!-- <extension name= 'webhookbackoffice' />
 	  <extension name= 'webhookservices' />
 	  <extension name= 'messagecentercsfacades' />
 	  <extension name= 'messagecentercsocc' />
-	  <extension name= 'messagecentercsservices' />
+	  <extension name= 'messagecentercsservices' /> -->
 	  <!-- <extension name= 'notificationaddon' />
 	  <extension name= 'notificationfacades' />
 	  <extension name= 'notificationocc' />
@@ -229,8 +229,8 @@
 	  <extension name= 'ruleengine' />
 	  <extension name= 'ruleenginebackoffice' />
 	  <extension name= 'ruleengineservices' />
-	  <extension name= 'kymaintegrationbackoffice' />
-	  <extension name= 'kymaintegrationservices' />
+	  <!-- <extension name= 'kymaintegrationbackoffice' />
+	  <extension name= 'kymaintegrationservices' /> -->
 	  <extension name= 'backofficesolrsearch' />
 	  <extension name= 'solrfacetsearch' />
 	  <extension name= 'solrfacetsearchbackoffice' />
