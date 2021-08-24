@@ -4,9 +4,8 @@
 	"solr": {
 
                 "solrVersion": "8.6.3"
-
         }
-    }
+    },
     "extensions": [
 		"commerceservicesbackoffice",
 		"solrfacetsearchbackoffice",
