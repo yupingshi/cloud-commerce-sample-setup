@@ -2,7 +2,7 @@
   <extensions>
     <!-- Uncomment the following if you have enabled Cloud Extension Pack-->
     <!--<path dir='${HYBRIS_BIN_DIR}/modules-cep'  autoload='false' />-->
-    
+
     <path dir='${HYBRIS_BIN_DIR}' autoload='false' />
 	  <extension name= 'yb2bacceleratorstorefront' />
 	  <extension name= 'adaptivesearch' />
@@ -52,7 +52,7 @@
 	  <extension name= 'pcmbackofficesamplesaddon' />
 	  <extension name= 'mediaconversionbackoffice' />
 	  <extension name= 'patchesbackoffice' />
-	  <extension name= 'classificationgroupsservices' />
+	  <!-- <extension name= 'classificationgroupsservices' /> -->
 	  <extension name= 'pcmbackoffice' />
 	  <extension name= 'backoffice' />
 	  <extension name= 'platformbackoffice' />
