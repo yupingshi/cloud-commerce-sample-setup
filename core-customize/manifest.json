@@ -7,7 +7,7 @@
     ],
     "useConfig": {
 	"solr": {
-		"solrVersion": "7.7",
+		"solrVersion": "8.6.3",
 		"location": "mysolr"
 	},
         "properties": [
