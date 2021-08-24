@@ -1,20 +1,9 @@
 {
     "commerceSuiteVersion":"2005.13",
-    "useConfig": {
-	"solr": {
-
-                "solrVersion": "8.6.3"
-        }
-    },
     "extensions": [
 		"commerceservicesbackoffice",
 		"solrfacetsearchbackoffice",
-    "cmsoccaddon",
 		"solrserver",
-	  "assistedserviceservices",
-	  "assistedservicefacades",
-	  "assistedservicestorefront",
-	  "assistedservicewebservices",
 		"yacceleratorcockpits",
 		"yacceleratorinitialdata",
 		"yacceleratorstorefront",
@@ -29,43 +18,27 @@
 		"smarteditaddon",
 		"smartedit",
 		"cmssmartedit",
-		"cmsbackoffice",
-    "previewwebservices",
+	    "cmsbackoffice",
+        "previewwebservices",
 		"previewpersonalizationweb",
-    "personalizationcmsweb",
-    "personalizationsmartedit",
-    "personalizationpromotionssmartedit",
-    "personalizationsampledataaddon",
-    "personalizationpromotions",
-    "personalizationpromotionsweb",
-    "personalizationservicesbackoffice",
-    "personalizationpromotionsbackoffice",
-    "personalizationcmsbackoffice",
-    "personalizationsearchbackoffice",
-    "personalizationsearchsmartedit"
+        "personalizationcmsweb",
+        "personalizationsmartedit",
+        "personalizationpromotionssmartedit",
+        "personalizationsampledataaddon",
+        "personalizationpromotions",
+        "personalizationpromotionsweb",
+        "personalizationservicesbackoffice",
+        "personalizationpromotionsbackoffice",
+        "personalizationcmsbackoffice",
+        "personalizationsearchbackoffice",
+        "personalizationsearchsmartedit"
     ],
 	"storefrontAddons": [
-		{
-		    "addon": "assistedservicestorefront",
-		    "storefront": "yacceleratorstorefront",
-		    "template": "yacceleratorstorefront"
-		},
-    {
-        "addon": "acceleratorwebservicesaddon",
-        "storefront": "ycommercewebservices",
-        "template": "yacceleratorstorefront"
-    },
 		{
 		    "addon": "smarteditaddon",
 		    "storefront": "yacceleratorstorefront",
 		    "template": "yacceleratorstorefront"
-		},
-    {
-        "addon": "cmsoccaddon",
-        "storefront": "ycommercewebservices",
-        "template": "ycommercewebservices"
-    }
-
+		}
 	],
     "properties": [
         {
@@ -256,46 +229,6 @@
                     "contextPath": "/medias"
                 }
             ]
-        },
-        {
-    			"name": "api",
-    			 "properties": [
-    					{
-    						"key":"xss.filter.header.X-Frame-Options",
-    						"value":""
-    					},
-              {
-    						"key":"assistedservicewebservices.xss.filter.header.X-Frame-Options",
-    						"value":"SAMEORIGIN",
-                "persona": "development"
-    					},
-              {
-                "key":"assistedservicewebservices.xss.filter.header.Access-Control-Allow-Origin",
-                "value":"*"
-              },
-              {
-                "key":"assistedservicewebservices.xss.filter.header.Access-Control-Allow-Methods",
-                "value":"GET, POST, HEAD, PUT, PATCH, DELETE, OPTIONS"
-              },
-              {
-                "key":"assistedservicewebservices.xss.filter.header.Access-Control-Allow-Headers",
-                "value":"Content-Type"
-              }
-    			],
-    			"webapps": [
-    				{
-    					"name": "platformwebservices",
-    					"contextPath": "/ws410"
-    				},
-    				{
-    					"name": "oauth2",
-    					"contextPath": "/authorizationserver"
-    				},
-    				{
-    					"name": "assistedservicewebservices",
-    					"contextPath": "/assistedservicewebservices"
-    				}
-    			]
-    		}
+        }
     ]
 }
