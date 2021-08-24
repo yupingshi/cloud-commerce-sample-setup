@@ -1,15 +1,11 @@
 {
-    "commerceSuiteVersion": "2005.13",
+    "commerceSuiteVersion": "2105",
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",
         "mediaconversionbackoffice"
     ],
     "useConfig": {
-	"solr": {
-		"solrVersion": "8.6.3",
-		"location": "mysolr"
-	},
         "properties": [
             {
                 "location": "hybris/config/environments/local-dev.properties",
@@ -58,32 +54,7 @@
                 "assistedserviceyprofileaddon",
                 "captchaaddon",
                 "configurablebundleaddon",
-                "consignmenttrackingaddon",
-                "customercouponaddon",
-                "customercouponsamplesaddon",
-                "customerinterestsaddon",
-                "customerticketingaddon",
-                "eventtrackingwsaddon",
-                "merchandisingaddon",
-                "merchandisingstorefrontsampledataaddon",
-                "multicountrysampledataaddon",
-                "notificationaddon",
-                "ordermanagementaddon",
-                "orderselfserviceaddon",
-                "pcmbackofficesamplesaddon",
-                "personalizationaddon",
-                "personalizationsampledataaddon",
-                "personalizationyprofilesampledataaddon",
-                "profiletagaddon",
-                "selectivecartsplitlistaddon",
-                "smarteditaddon",
-                "stocknotificationaddon",
-                "textfieldconfiguratortemplateaddon",
-                "timedaccesspromotionengineaddon",
-                "timedaccesspromotionenginesamplesaddon",
-                "xyformssamples",
-                "xyformsstorefrontcommons",
-                "ysapproductconfigaddon"
+                "smarteditaddon"
             ],
             "storefronts": [
                 "yacceleratorstorefront",
