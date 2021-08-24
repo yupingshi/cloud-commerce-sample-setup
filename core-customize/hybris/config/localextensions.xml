@@ -237,9 +237,9 @@
 	  <extension name= 'solrserver' />
 	  <!-- <extension name= 'backofficesearchservices' /> -->
 	  <!-- <extension name= 'searchbackoffice' /> -->
-	  <extension name= 'searchprovidercssearchbackoffice' />
-	  <extension name= 'searchprovidercssearchservices' />
-	  <extension name= 'searchservices' />
+	  <!-- <extension name= 'searchprovidercssearchbackoffice' />
+	  <extension name= 'searchprovidercssearchservices' /> -->
+	  <!-- <extension name= 'searchservices' /> -->
 	  <!-- <extension name= 'selectivecartfacades' />
 	  <extension name= 'selectivecartservices' />
 	  <extension name= 'selectivecartsplitlistaddon' /> -->
