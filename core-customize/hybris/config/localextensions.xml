@@ -104,11 +104,11 @@
 	  <extension name= 'sapproductconfigruntimeinterface' />
 	  <extension name= 'sapproductconfigruntimemock' />
 	  <extension name= 'sapproductconfigservices' />
-	  <extension name= 'ysapproductconfigaddon' />
+	  <extension name= 'ysapproductconfigaddon' /> -->
 	  <extension name= 'consignmenttrackingaddon' />
 	  <extension name= 'consignmenttrackingbackoffice' />
 	  <extension name= 'consignmenttrackingfacades' />
-	  <extension name= 'consignmenttrackingmock' />
+	  <!-- <extension name= 'consignmenttrackingmock' />
 	  <extension name= 'consignmenttrackingocc' />
 	  <extension name= 'consignmenttrackingservices' /> -->
 	  <extension name= 'acceleratorbackoffice' />
