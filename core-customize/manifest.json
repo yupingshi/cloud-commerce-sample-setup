@@ -34,7 +34,6 @@
       "personalizationsearchbackoffice",
       "personalizationsearchsmartedit"
    ],
-   "useConfig":{
       "properties":[
          {
             "key":"lang.packs",
@@ -66,8 +65,7 @@
             "key":"multicountrysampledataaddon.import.active",
             "value":"false"
          }
-      ]
-   },
+      ],
    "storefrontAddons":[
       {
          "addon":"smarteditaddon",
