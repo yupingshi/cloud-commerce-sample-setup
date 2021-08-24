@@ -88,12 +88,12 @@
 	  <extension name= 'commercewebservicestests' />
 	  <extension name= 'yocc' />
 	  <extension name= 'yocctests' />
-	  <!-- <extension name= 'configurablebundleaddon' />
+	  <extension name= 'configurablebundleaddon' />
 	  <extension name= 'configurablebundlebackoffice' />
 	  <extension name= 'configurablebundlefacades' />
 	  <extension name= 'configurablebundleocc' />
 	  <extension name= 'configurablebundleocctests' />
-	  <extension name= 'configurablebundleservices' /> -->
+	  <extension name= 'configurablebundleservices' />
 	  <!-- <extension name= 'sapproductconfigb2baddon' />
 	  <extension name= 'sapproductconfigb2bservices' />
 	  <extension name= 'sapproductconfigfacades' />
