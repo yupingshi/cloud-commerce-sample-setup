@@ -236,7 +236,7 @@
 	  <extension name= 'solrfacetsearchbackoffice' />
 	  <extension name= 'solrserver' />
 	  <!-- <extension name= 'backofficesearchservices' /> -->
-	  <extension name= 'searchbackoffice' />
+	  <!-- <extension name= 'searchbackoffice' /> -->
 	  <extension name= 'searchprovidercssearchbackoffice' />
 	  <extension name= 'searchprovidercssearchservices' />
 	  <extension name= 'searchservices' />
