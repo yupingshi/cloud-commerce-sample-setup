@@ -1,6 +1,6 @@
 {
    "commerceSuiteVersion":"2005.13",
-   "solrVersion": "8.6.3",
+   "solrVersion": "8.6",
    "extensions":[
       "commerceservicesbackoffice",
       "solrfacetsearchbackoffice",
