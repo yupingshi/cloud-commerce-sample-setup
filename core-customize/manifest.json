@@ -32,7 +32,13 @@
       "personalizationpromotionsbackoffice",
       "personalizationcmsbackoffice",
       "personalizationsearchbackoffice",
-      "personalizationsearchsmartedit"
+      "personalizationsearchsmartedit",
+	"adaptivesearch",
+	"adaptivesearchwebservices",
+	"adaptivesearchfacades",
+	"adaptivesearchbackoffice",
+	"adaptivesearchsamplesaddon",
+	"adaptivesearchsolr"
    ],
    "properties":[
       {
