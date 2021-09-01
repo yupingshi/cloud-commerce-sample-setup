@@ -8,6 +8,9 @@
       "yacceleratorcockpits",
       "yacceleratorinitialdata",
       "yacceleratorstorefront",
+      "yacceleratorbackoffice",
+      "backoffice",
+      "ybackoffice",
       "ycommercewebservices",
       "electronicsstore",
       "apparelstore",
@@ -74,7 +77,10 @@
    ],
    "storefrontAddons":[
       {
-         "addon":"smarteditaddon",
+         "addons": [
+		"smarteditaddon",
+	 	"adaptivesearchsamplesaddon"
+	 ],
          "storefront":"yacceleratorstorefront",
          "template":"yacceleratorstorefront"
       }
