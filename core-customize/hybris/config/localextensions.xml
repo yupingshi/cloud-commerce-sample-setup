@@ -87,7 +87,7 @@
     <extension name='saporderexchangebackoffice'/>
     <extension name='sapcoreaddon'/>-->
     <extension name='mcc'/>
-    <extension name='ECP2083TestExtension'/>
+    <extension name='awstest'/>
 
   </extensions>
 </hybrisconfig>

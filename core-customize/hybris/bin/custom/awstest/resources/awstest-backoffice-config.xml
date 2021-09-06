@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+ Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved
+-->
+<config xmlns="http://www.hybris.com/cockpit/config">
+
+	<!-- awstest UI configuration should be provided here -->
+
+	<!--<context component="component-code" module="awstest">-->
+		<!--Please check documentation for code snippets for specific components-->
+	<!--</context>-->
+    <context type="EnrichedDescriptionProductDetailComponent" component="editor-area" merge-by="type" parent="ProductDetailComponent">
+        <editorArea:editorArea xmlns:editorArea="http://www.hybris.com/cockpitng/component/editorArea">
+            <editorArea:tab name="hmc.properties" >
+                <editorArea:section name="hmc.section.cms.enriched.description.product.detail.content">
+                    <editorArea:attribute qualifier="content" editor="com.hybris.cockpitng.editor.localized(com.hybris.cockpitng.editor.wysiwyg)">
+                        <editorArea:editor-parameter>
+                            <editorArea:name>base64Encoded</editorArea:name>
+                            <editorArea:value>true</editorArea:value>
+                        </editorArea:editor-parameter>
+                    </editorArea:attribute>
+                </editorArea:section>
+            </editorArea:tab>
+        </editorArea:editorArea>
+    </context>
+</config>
