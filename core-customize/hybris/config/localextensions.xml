@@ -86,7 +86,7 @@
     <extension name='sapmodelbackoffice'/>
     <extension name='saporderexchangebackoffice'/>
     <extension name='sapcoreaddon'/>-->
-    <extension name='mcc'/>
+    <!-- <extension name='mcc'/> -->
     <extension name='awstest'/>
 
   </extensions>
